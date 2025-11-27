@@ -67,7 +67,7 @@ const Cta: React.FC = () => {
           >
             {/* Download CV Button */}
             <motion.a
-              href="/YOSSEF-EHAB-MOHAMED-FlowCV-Resume-20251126.pdf"
+              href="/YOSSEF-EHAB-MOHAMED-CV-Resume-v1.1.pdf"
               download="YOSSEF-EHAB-MOHAMED-Resume.pdf"
               whileHover={{
                 scale: 1.05,
