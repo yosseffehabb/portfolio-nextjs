@@ -14,8 +14,8 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
   const [copied, setCopied] = useState<string | null>(null);
 
   const contactInfo = {
-    email: "yossef.ehab@example.com", // Replace with your actual email
-    phone: "+20 123 456 7890", // Replace with your actual phone
+    email: "yosseffehab@gmail.com", // Replace with your actual email
+    phone: "+20 0127 410 0790", // Replace with your actual phone
     linkedin: "https://linkedin.com/in/yosseffehabb", // Replace with your actual LinkedIn
   };
 
