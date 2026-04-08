@@ -14,7 +14,7 @@ function Header() {
 
   const handleDownloadCV = () => {
     const link = document.createElement("a");
-    link.href = "/YOSSEF-EHAB-MOHAMED-CV-Resume-v1.1.pdf";
+    link.href = "/ast cv.pdf";
     link.setAttribute("download", "YOSSEF-EHAB-MOHAMED-Resume.pdf");
     document.body.appendChild(link);
     link.click();
@@ -85,25 +85,25 @@ function Header() {
           >
             <div className="flex flex-col space-y-4 p-4">
               <a
-                href="#features"
-                className="px-3 py-2 text-silver hover:text-primary"
-                onClick={toggleMobileMenu}
-              >
-                Features
-              </a>
-              <a
-                href="#how-it-works"
-                className="px-3 py-2 text-silver hover:text-primary"
-                onClick={toggleMobileMenu}
-              >
-                How it Works
-              </a>
-              <a
                 href="#about"
                 className="px-3 py-2 text-silver hover:text-primary"
                 onClick={toggleMobileMenu}
               >
-                About
+                about
+              </a>
+              <a
+                href="#projects"
+                className="px-3 py-2 text-silver hover:text-primary"
+                onClick={toggleMobileMenu}
+              >
+                Projects
+              </a>
+              <a
+                href="#tech"
+                className="px-3 py-2 text-silver hover:text-primary"
+                onClick={toggleMobileMenu}
+              >
+                Tech
               </a>
 
               <div className="space-y-2 pt-4">

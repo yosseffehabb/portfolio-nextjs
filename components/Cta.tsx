@@ -41,7 +41,7 @@ const Cta: React.FC = () => {
             whileInView={{ scaleX: 1 }}
             transition={{ duration: 0.8, delay: 0.4, ease: "easeInOut" }}
             viewport={{ once: true }}
-            className="mx-auto mb-8 h-1 w-32 origin-center rounded-full bg-gradient-to-r from-transparent via-wine to-transparent"
+            className="mx-auto mb-8 h-1 w-32 origin-center rounded-full bg--to-r from-transparent via-wine to-transparent"
           />
 
           {/* Subtext */}
@@ -67,7 +67,7 @@ const Cta: React.FC = () => {
           >
             {/* Download CV Button */}
             <motion.a
-              href="/YOSSEF-EHAB-MOHAMED-CV-Resume-v1.1.pdf"
+              href="/ast cv.pdf"
               download="YOSSEF-EHAB-MOHAMED-Resume.pdf"
               whileHover={{
                 scale: 1.05,
