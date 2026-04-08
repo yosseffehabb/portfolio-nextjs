@@ -68,7 +68,7 @@ const Cta: React.FC = () => {
             {/* Download CV Button */}
             <motion.a
               href="/ast cv.pdf"
-              download="YOSSEF-EHAB-MOHAMED-Resume.pdf"
+              download="ast cv.pdf"
               whileHover={{
                 scale: 1.05,
                 boxShadow: "0 20px 40px rgba(190, 24, 93, 0.3)",

@@ -15,7 +15,7 @@ function Header() {
   const handleDownloadCV = () => {
     const link = document.createElement("a");
     link.href = "/ast cv.pdf";
-    link.setAttribute("download", "YOSSEF-EHAB-MOHAMED-Resume.pdf");
+    link.setAttribute("download", "ast cv.pdf");
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
