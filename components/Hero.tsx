@@ -52,18 +52,20 @@ function Hero() {
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </motion.span>
               </Button>
-
               <Button
                 size="lg"
                 className="group box-border w-full border border-silver bg-inherit transition-all duration-300 hover:bg-silver hover:text-wine sm:w-auto"
+                asChild
               >
-                my projects
-                <motion.span
-                  animate={{ x: [0, 4, 0] }}
-                  transition={{ duration: 1.5, repeat: Infinity }}
-                >
-                  <ArrowUpRight className="ml-1 h-4 w-4" />
-                </motion.span>
+                <a href="#projects">
+                  my projects
+                  <motion.span
+                    animate={{ x: [0, 4, 0] }}
+                    transition={{ duration: 1.5, repeat: Infinity }}
+                  >
+                    <ArrowUpRight className="ml-1 h-4 w-4" />
+                  </motion.span>
+                </a>
               </Button>
             </div>
           </motion.div>
