@@ -14,9 +14,9 @@ const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) => {
   const [copied, setCopied] = useState<string | null>(null);
 
   const contactInfo = {
-    email: "yosseffehab@gmail.com", 
-    phone: "+20 101 394 7277", 
-    linkedin: "https://linkedin.com/in/yosseffehabb", 
+    email: "yosseffehab@gmail.com",
+    phone: "+20 101 394 7277",
+    linkedin: "https://www.linkedin.com/in/yossef-ehab-mohamed-b419bb397/",
   };
 
   const copyToClipboard = async (text: string, type: string) => {
