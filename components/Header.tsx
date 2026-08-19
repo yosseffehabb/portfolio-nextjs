@@ -14,8 +14,8 @@ function Header() {
 
   const handleDownloadCV = () => {
     const link = document.createElement("a");
-    link.href = "/ast cv.pdf";
-    link.setAttribute("download", "ast cv.pdf");
+    link.href = "/Yossef_Ehab_Frontend_Developer (1).pdf";
+    link.setAttribute("download", "Yossef_Ehab_Frontend_Developer.pdf");
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

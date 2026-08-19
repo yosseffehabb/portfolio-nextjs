@@ -1,0 +1,106 @@
+  theme: {
+    extend: {
+      colors: {
+        charcoal: '#1A1A1A',      // Base background
+        wine: '#7B1E32',          // Burgundy shirt
+        slategray: '#2F2F2F',     // Secondary background
+        forestgreen: '#2E4A3C',   // Reflective glass
+        silver: '#B1B1B1',        // Text/icons
+        shadowteal: '#1C3A35',    // Hover / accent
+      },
+    },
+  },
+
+
+gradiant : "bg-gradient-to-r from-wine/10 to-shadowteal/10
+
+
+
+<div data-lov-id="src/components/Hero.tsx:9:6" data-lov-name="div" data-component-path="src/components/Hero.tsx" data-component-line="9" data-component-file="Hero.tsx" data-component-name="div" data-component-content="%7B%22className%22%3A%22absolute%20inset-0%20bg-gradient-to-br%20from-wine%2F10%20via-transparent%20to-forestgreen%2F10%22%7D" class="absolute inset-0 bg-gradient-to-br from-wine/10 via-transparent to-forestgreen/10"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import { Menu, X, ChevronRight } from "lucide-react";
+import { useState } from "react";
+
+function Header() {
+  const [isopen, setIsopen] = useState(false);
+
+  function handleOpenMenu() {
+    if (isopen === false) setIsopen(true);
+    if (isopen === true) setIsopen(false);
+  }
+
+  console.log(isopen);
+
+  return (
+    <header
+      className={`fixed z-50 w-full border-slategray bg-charcoal/100 shadow-md backdrop:blur-md ${isopen ? "pb-4" : ""}`}
+    >
+      <div className="flex h-16 items-center justify-between">
+        <span className="ml-3 text-2xl font-bold tracking-wide text-wine">
+          Yosseffehabb
+        </span>
+
+        <button
+          className="mr-3 inline-block rounded-md px-1 py-1 font-semibold uppercase tracking-wide text-silver transition-all duration-300"
+          onClick={handleOpenMenu}
+        >
+          {isopen ? <X /> : <Menu />}
+        </button>
+      </div>
+      {isopen ? (
+        <div className="ml-3 mr-3 rounded-md bg-slategray pb-4">
+          <ul className="flex flex-col gap-2 pl-3 pr-3 pt-4 font-semibold text-silver">
+            <li className="transition-all duration-300 hover:text-forestgreen">
+              Projects
+            </li>
+            <li className="transition-all duration-300 hover:text-forestgreen">
+              about
+            </li>
+            <li className="transition-all duration-300 hover:text-forestgreen">
+              home
+            </li>
+            <li className="hover: w-full rounded-md bg-wine py-2 text-center transition-all duration-300 hover:bg-forestgreen">
+              <button> contact now</button>
+            </li>
+          </ul>
+        </div>
+      ) : (
+        ""
+      )}
+    </header>
+  );
+}
+
+export default Header;
+
+
