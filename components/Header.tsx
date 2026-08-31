@@ -55,7 +55,7 @@ function Header() {
                   className="hover:shadow-glow bg-wine text-silver transition-all duration-300 hover:scale-105 hover:bg-forestgreen"
                   onClick={handleDownloadCV}
                 >
-                  download cv
+                  Download CV
                 </Button>
               </div>
             </div>
@@ -89,7 +89,7 @@ function Header() {
                 className="px-3 py-2 text-silver hover:text-primary"
                 onClick={toggleMobileMenu}
               >
-                about
+                About
               </a>
               <a
                 href="#projects"
@@ -114,7 +114,7 @@ function Header() {
                     toggleMobileMenu();
                   }}
                 >
-                  download cv
+                  Download CV
                 </Button>
               </div>
             </div>
