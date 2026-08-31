@@ -36,7 +36,7 @@ function Hero() {
               ,we will always be with you */}
               Hello , im{" "}
               <span className="relative z-10 pr-5 text-wine">yosseffehabb</span>{" "}
-              <span className="">frontend</span> web developer
+              <span className="">FRONTEND</span> Web Developer
             </h1>
             <div className="mt-10 flex flex-col justify-center gap-4 sm:flex-row">
               <Button
@@ -44,7 +44,7 @@ function Hero() {
                 className="group w-full bg-wine transition-all duration-300 hover:bg-forestgreen sm:w-auto"
                 onClick={openModal}
               >
-                contact now
+                Contact Now
                 <motion.span
                   animate={{ x: [0, 4, 0] }}
                   transition={{ duration: 1.5, repeat: Infinity }}
@@ -58,7 +58,7 @@ function Hero() {
                 asChild
               >
                 <a href="#projects">
-                  my projects
+                  My Projects
                   <motion.span
                     animate={{ x: [0, 4, 0] }}
                     transition={{ duration: 1.5, repeat: Infinity }}

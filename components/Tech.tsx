@@ -21,6 +21,7 @@ const techStack: TechItem[] = [
   { name: "VS Code", icon: "logos:visual-studio-code" },
   { name: "Figma", icon: "logos:figma" },
   { name: "supabase", icon: "logos:supabase" },
+  { name: "SqlServer", icon: "logos:Sql-Server" },
 ];
 
 const containerVariants = {
